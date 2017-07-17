@@ -3,6 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
+import { MdSidenavModule } from '@angular/material';
+import { MdListModule } from '@angular/material';
+import { MdButtonModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -10,7 +13,10 @@ import { IndexComponent } from './index/index.component';
     IndexComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MdSidenavModule,
+    MdListModule,
+    MdButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,7 +1,31 @@
 <!-- preloader - to remove it entirely, remove the line below but also the JS files for the preloader from above -->
+<md-sidenav #sidenav class="example-sidenav">
+    <md-list>
+        <md-list-item>
+            <button md-button>Heavy Rain</button>
+        </md-list-item>
+        <md-list-item>
+            <button md-button>Light Rain</button>
+        </md-list-item>
+        <md-list-item>
+            <button md-button>Cloudy</button>
+        </md-list-item>
+        <md-list-item>
+            <button md-button>Snowfall</button>
+        </md-list-item>
+        <md-list-item>
+            <button md-button>Spring</button>
+        </md-list-item>
+    </md-list>
+</md-sidenav>
+<div class="example-sidenav-content">
+    <button type="button" md-button (click)="sidenav.open()">
+        Open sidenav
+    </button>
+</div>
 <div id="page" class="homepage-hero-banner hfeed site wide-layout">
-
   <header id="header" class="site-header initial-state">
+    <!--<button class="menu-button" style="position: absolute;top: 4%;left: 2%;">open menu</button>-->
     <div class="container">
       <div class="three columns logo-container">
         <div class="site-branding">
@@ -9,7 +33,6 @@
             <a href="homepage-revolution-slider.html" title="Stag - Portfolio Template for Freelancers and Agencies" rel="home">
               <img class="is-svg" src="assets/images/logo.svg" alt="Stag - Portfolio Template for Freelancers and Agencies" width="85" height="25" />
             </a>
-
           </div>
           <!--end logo-->
 
