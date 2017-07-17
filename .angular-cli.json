@@ -19,9 +19,24 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "styles.scss",
+        "../node_modules/font-awesome/css/font-awesome.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "assets/js/plugins/jquery.min.js",
+        "assets/js/plugins/jquery-plugins.js",
+        "assets/js/plugins/jquery.scrollTo.js",
+        "assets/js/plugins/jquery.isotope.js",
+        "assets/js/custom-isotope-portfolio.js",
+        "assets/js/plugins/smoothScroll.js",
+        "assets/js/custom-nav.js",
+        "assets/js/custom-navscroll.js",
+        "assets/js/custom-parallax.js",
+        "assets/js/custom.js",
+        "assets/js/plugins/owlcarousel.js",
+        "assets/js/custom-testimonials.js",
+        "assets/js/custom-clients.js"
+    ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
